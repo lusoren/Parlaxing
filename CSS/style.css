@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    height: 100000px;
+
+
+}
+
+
+.circle  {
+    visibility: hidden;
+
+    width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+
+    border-radius: 2500px;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: blue;
+}
+
+.square {
+    visibility: hidden;
+
+    width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+
+
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: blue;
+}
+
+.w {
+    background-color: white;
+}
+
+.o {
+    opacity: .1;
+}
+
+.r{
+    background-color: red;
+    
+}
+
+.par {
+ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    line-height: 0;
+    margin: 0;
+    
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+/*--------------cnt11--------------*/
+
+#cnt2 {
+    z-index: -2;
+}
+
+/*--------------cnt30--------------*/
+
+#cnt30 {
+    z-index: -1;
+}
+
+
+/*--------------cnt60--------------*/
+#cnt60 {
+    width:300px;
+    height: 300px;
+    left:25%;
+    top:10%;
+}
+
+/*--------------cnt62--------------*/
+#cnt62 {
+    width:300px;
+    height:300px;
+    left:70%;
+    top:70%;
+}
+
+/*--------------cnt63--------------*/
+#cnt63 {
+    width:70px;
+    height:70px;
+    left:20%;
+    top:70%;
+}
+
+/*--------------cnt64--------------*/
+#cnt64 {
+    width:400px;
+    height:400px;
+    left:70%;
+    top:-10%;
+}
+
+/*--------------cnt66--------------*/
+#cnt66 {
+    width:150px;
+    height:150px;
+    left:5%;
+    top:5%;
+}
+
+/*--------------cnt67--------------*/
+#cnt67 {
+    width:200px;
+    height:200px;
+    left:3%;
+    top:100%;
+}
+
+/*--------------cnt68--------------*/
+#cnt68 {
+
+    left:60%;
+    overflow: visible;
+}
+
+/*--------------cnt70--------------*/
+#cnt70 {
+    left:-30%;
+    top: -50%;
+    width: 1000px;
+    height: 1000px;
+    opacity: .5;
+}
+
+/*--------------cnt71--------------*/
+#cnt71 {
+
+    top: -60%;
+    
+    width: 1000px;
+    height: 1000px;
+    opacity: .5;
+}
+
+
+
+
+
